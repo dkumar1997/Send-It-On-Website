@@ -5,14 +5,12 @@
   
   
   
-}
-html{
-  padding: 0;
-  margin: 0;
   
 }
+
 header{
   height:125px;
+  text-align: center;
   
 }
 
@@ -36,8 +34,48 @@ header{
   
 }
 /*------------------------------*/
+/* navigation bar 2 working on 
+.nav-bar{
+  width: 100%;
+  height: 130px;
+  background-color: black;
+  overflow: auto;
 
-/* navigation bar */
+}
+ul{
+  padding: 0;
+  margin: 0 0 0 150px;
+  list-style: none;
+  
+  
+}
+li{
+  float:left;
+  margin-top: 60px;
+  
+  
+}
+.logo img{
+  position: absolute;
+  margin-top:15px;
+  margin-left: 10px;
+}
+nav a{
+  width: 100px;
+  
+  padding: 35px 15px;
+  text-decoration: none;
+  font-family: Arial;
+  color: #f2f2f2;
+  text-align: center;
+  
+}
+a:hover{
+  background-color: purple;
+  transition: 0.5s;
+}
+*/
+/* navigation bar first one worked on*/
 li, a{
   font-family: sans-serif;
   font-weight: 500;
@@ -50,6 +88,9 @@ li, a{
   display: flex;
   justify-content: center;
   padding: 20px 10%;
+  overflow: hidden;
+  background-color: lightblue;
+  
   
   
   
@@ -69,6 +110,7 @@ a{
 a:hover{
   color: lightpink;
 }
+
 
 
 .img-box{
