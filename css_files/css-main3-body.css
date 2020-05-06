@@ -3,17 +3,13 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.learn-more{
-	font-size: 52px;
-	font-family: 'Capriola', sans-serif;
-	letter-spacing: 3px;
-	text-align: center;
-}
+
 main{
-	background-image: url(../images/asunset.jpg);
+	background-image: url(../images/thesunset.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	margin-top:50px;
 }
 .grid-contain h3{
 	color: white;
@@ -178,10 +174,21 @@ main{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #000;
+	background: cadetblue;
 	backface-visibility: hidden;
 	transform: rotateX(180deg);
 	transition: 0.9s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card3 .back p{
+	color: white;
+	font-family: 'Capriola', sans-serif;
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 25px;
+	
 }
 .card3:hover .back{
 	transform: rotateX(0deg);
