@@ -3,58 +3,38 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.boxes-container{
-		
-		display: grid;
-		
-		width:97%;
-		height: 800px;
-		margin: auto;
-		margin-top: 30px;
-		text-align: center;
-		grid-template-areas:
-				"box1 box1 box2 box2"
-				"box1 box1 box2 box2"
-				"box3 box3 box4 box4"
-				"box3 box3 box4 box4";
-		grid-gap: 30px;
-}
 
+
+.box1, .box2, .box3, .box4{
+		width: 600px;
+		height: 550px;
+}
 .box1{
-		grid-area: box1;
-		background-color: aqua;
-		background-image: url(../images/video.png);
+		background-image:url(../images/video.png);
 		background-repeat: no-repeat;
-		background-size:cover;
 		background-position: center center;
-		
-		
+		background-size: contain;
 }
-
 .box2{
-		grid-area: box2;
-		background-image: url(../images/hands.jpg);
-		background-repeat: no-repeat;
-		background-size:cover;
-		background-position: center center;
 		
+		background-image:url(../images/hands.jpg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: contain;
 }
-
 .box3{
-		grid-area: box3;
-		background-color:fuchsia;
-		background-image: url(../images/sparkler2.jpg);
-		background-repeat: no-repeat;
-		background-size:cover;
-		background-position: center center;
 		
+		background-image:url(../images/sparkler2.jpg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: contain;
 }
 .box4{
-		grid-area: box4;
-		background-color:black;
-		background-image: url(../images/global-com.png);
+		background-image:url(../images/global-com.png);
 		background-repeat: no-repeat;
-		background-size:cover;
 		background-position: center center;
-		
+		background-size: contain;
 }
+
+
+
