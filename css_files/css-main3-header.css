@@ -28,12 +28,13 @@ header{
 }
 
 .nav-bar{
-    display: flex;
-    position: fixed;
-    width:100%;
-    justify-content:space-around;
-    align-items: center;
-    opacity: 100%;
+	display: flex;
+	position: fixed;
+	width:100%;
+	justify-content:space-around;
+	align-items: center;
+	opacity: 100%;
+	z-index: 10;
     
     
 }
