@@ -3,64 +3,16 @@
     margin: 0px;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
-=======
+
 .boxes-container section img{
   width:500px;
   height: 500px;
 		
 }
->>>>>>> b7a6a91670cb7bddce5b44598493a58f0d1040ba
+
 
 
 .box1, .box2, .box3, .box4{
 		width: 600px;
 		height: 550px;
 }
-.box1{
-<<<<<<< HEAD
-		background-image:url(../images/video.png);
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-size: contain;
-=======
-		
-		
-		
->>>>>>> b7a6a91670cb7bddce5b44598493a58f0d1040ba
-}
-.box2{
-		
-<<<<<<< HEAD
-		background-image:url(../images/hands.jpg);
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-size: contain;
-=======
-		
->>>>>>> b7a6a91670cb7bddce5b44598493a58f0d1040ba
-}
-.box3{
-		
-<<<<<<< HEAD
-		background-image:url(../images/sparkler2.jpg);
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-size: contain;
-}
-.box4{
-		background-image:url(../images/global-com.png);
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-size: contain;
-=======
-		
-}
-.box4{
-		
-		
->>>>>>> b7a6a91670cb7bddce5b44598493a58f0d1040ba
-}
-
-
-
