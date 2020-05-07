@@ -5,18 +5,19 @@
 }
 footer{
 	width: 100%;
-	height: 260px;
-	
+	height: 200px;
 	background-color: 	#D3D3D3;
+	border-top: 15px solid black;
+	
 
 }
 .whole-footer{
 	display: flex;
-	
-	justify-content:flex-start;
+	justify-content:center;
 	align-items: center;
 	width:100%;
 	height: 100%;
+	text-align: center;
 }
 
 .logo-bottom{
@@ -30,12 +31,19 @@ footer{
 }
 
 .connecting{
-	line-height: 50px;
+	line-height: 30px;
 }
 .connecting h4{
-	
-	font-size: 32px;
+	font-size: 20px;
 	letter-spacing: 3px;
-	
+	font-family: 'Poppins', sans-serif;
 }
 
+i{
+	color: black;
+	transition: 0.5s;
+	
+}
+i:hover{
+	color: blue;
+}
