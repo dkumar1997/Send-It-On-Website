@@ -14,18 +14,12 @@ header{
     height: 600px;
     
 }
+
 .big-image{
     position:relative;
 }
 
-.main-img{
-    max-width:100%;
-    height: auto;
-    position: absolute;
-    top:0;
-    left:0;
-   
-}
+
 
 .nav-bar{
 	display: flex;
@@ -36,8 +30,7 @@ header{
 	opacity: 100%;
 	z-index: 10;
 	transition: top 0.5s;
-    
-    
+   
 }
 .nav-bar-color{
 	background-color: darkgray;
