@@ -4,13 +4,7 @@
     box-sizing: border-box;
 }
 
-main{
-	background-image: url(../images/thesunset.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	border-top: 15px solid black;
-}
+
 .grid-contain h3{
 	color: white;
 	font-size: 52px;
