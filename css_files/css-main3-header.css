@@ -15,10 +15,6 @@ header{
     
 }
 
-.big-image{
-    position:relative;
-}
-
 
 
 .nav-bar{
@@ -45,42 +41,30 @@ nav{
     height: 100%;
 	
 }
+
 nav li{
 	position: relative;
-	width: 100%;
-	text-align: center;
 }
-nav li .inside-list > li{
-	display: block;
-	top:0;
-}
-.inside-list li{
-	display: none;
-	position: absolute;
-	top: 0;
-}
-.inside-list{
-	display: flex;
-	flex-direction: column;
-	position: absolute;
-	width:100%;
-}
+
+
 .navigation-links{
     display: flex;
     align-items: center;
     list-style: none;
     justify-content:center;
 }
-.navigation-links li{
+.navigation-links > li{
     padding: 20px;
     transition:0.5s;
     margin: 0px 30px;
 	
 	
+	
     
 }
 
-.navigation-links li:hover{
+
+.navigation-links > li:hover{
     background-color:cadetblue;
  
     
@@ -93,4 +77,25 @@ nav li .inside-list > li{
     font-weight:bolder;
     font-size: 17px;
     
+}
+.inside-list{
+	background-color: red;
+	list-style: none;
+	
+	
+	
+}
+.inside-list li{
+	width: 100%;
+	text-align: center;
+	display: none;
+	
+	
+}
+.navigation-links li:hover .inside-list > li{
+	display: block;
+	top: 0px;
+}
+.inside-list li:hover{
+	background-color: aqua;
 }
