@@ -43,7 +43,10 @@ nav{
 }
 
 nav li{
-	position: relative;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  
 }
 
 
@@ -57,6 +60,7 @@ nav li{
     padding: 20px;
     transition:0.5s;
     margin: 0px 30px;
+  
 	
 	
 	
@@ -79,23 +83,42 @@ nav li{
     
 }
 .inside-list{
-	background-color: red;
-	list-style: none;
-	
+  background-color: cadetblue;
+  list-style: none;
+  position: absolute;
+  top:65px;
+  left:0;
+  width: 100%;
+  
+  
 	
 	
 }
+/*
+top 66
+top 88px when 2 block when writing
+*/
 .inside-list li{
 	width: 100%;
+    height: 100px;
 	text-align: center;
 	display: none;
 	
 	
 }
-.navigation-links li:hover .inside-list > li{
-	display: block;
+.navigation-links li:hover .inside-list li{
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 	top: 0px;
 }
-.inside-list li:hover{
+.inside-list li a {
+  padding: 20px;
+  width: 100%;
+  
+  
+}
+.inside-list li a:hover{
 	background-color: aqua;
 }
