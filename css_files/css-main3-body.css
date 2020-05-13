@@ -1,0 +1,287 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.grid-contain h3{
+	color: white;
+	font-size: 52px;
+	font-family: 'Capriola', sans-serif;
+	letter-spacing: 3px;
+
+}
+.grid-contain{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	justify-items: center;
+	padding-top:50px;
+	padding-bottom: 50px;
+	grid-row-gap: 60px;
+	
+}
+p{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  font-size: 25px;
+  text-align: center;
+		font-weight: bold;
+		margin-left: 20px;
+		margin-right: 20px;
+		font-weight: 800;
+	transition: 0.5s;
+
+}
+
+
+
+.card1{
+	position: relative;
+	transform-style: preserve-3d;
+	transition: 0.9s;
+	perspective: 600px;
+	width:600px;
+	height: 500px;
+	float: left;
+}
+
+.card1 .front{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+	transition: 0.9s;
+	background-image: url(../images/video.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+
+.card1:hover .front{
+	transform: rotateX(-180deg);
+}
+
+.card1 .back{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #000;
+	backface-visibility: hidden;
+	transform: rotateX(180deg);
+	transition: 0.9s;
+}
+.card1:hover .back{
+	transform: rotateX(0deg);
+}
+.card1 .back iframe{
+	text-align: center;
+}
+
+
+.card2{
+	position: relative;
+	transform-style: preserve-3d;
+	transition: 0.9s;
+	perspective: 600px;
+	width:600px;
+	height: 500px;
+	float: left;
+	
+}
+
+
+.card2 .front{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+	transition: 0.9s;
+	background-image: url(../images/hands.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+
+.card2:hover .front{
+	transform: rotateX(-180deg);
+}
+
+.card2 .back{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	backface-visibility: hidden;
+	transform: rotateX(180deg);
+	transition: 0.9s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../images/hexagons.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.card2:hover .back{
+	transform: rotateX(0deg);
+}
+
+
+
+.card3{
+	position: relative;
+	transform-style: preserve-3d;
+	transition: 0.9s;
+	perspective: 600px;
+	width:600px;
+	height: 500px;
+	float: left;
+	
+}
+
+
+.card3 .front{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+	transition: 0.9s;
+	background-image: url(../images/sparkler2.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+
+.card3:hover .front{
+	transform: rotateX(-180deg);
+}
+
+.card3 .back{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: cadetblue;
+	backface-visibility: hidden;
+	transform: rotateX(180deg);
+	transition: 0.9s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../images/hexagons.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.card3:hover .back{
+	transform: rotateX(0deg);
+}
+
+
+.card4{
+	position: relative;
+	transform-style: preserve-3d;
+	transition: 0.9s;
+	perspective: 600px;
+	width:600px;
+	height: 500px;
+	float: left;
+	
+}
+
+
+.card4 .front{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+	transition: 0.9s;
+	background-image: url(../images/global-com.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+
+.card4:hover .front{
+	transform: rotateX(-180deg);
+}
+
+.card4 .back{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	backface-visibility: hidden;
+	transform: rotateX(180deg);
+	transition: 0.9s;
+	background-image: url(../images/hexagons.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card4:hover .back{
+	transform: rotateX(0deg);
+}
+
+
