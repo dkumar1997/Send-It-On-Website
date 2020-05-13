@@ -4,16 +4,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+.maintitle{
+  font-size: 42px;
+  font-family: 'Capriola', sans-serif;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 50px;
+}
+.quote{
+  font-size: 20px;
+  margin-top:30px;
+  font-style: italic;
+  
+}
+
+
 p{
   text-align: center;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 2px;
-  font-size: 13px;
+  font-size: 17px;
   
   
 }
+
 .references{
-  font-size: 10px;
+  font-size: 12px;
 }
 
 main{
@@ -28,32 +46,30 @@ article{
   
 }
 main img{
-  width:400px;
-  height: 500px;
+  width:500px;
+  height: 600px;
 }
 
 .allbooks{
-  max-width: 1000px;
-  margin: 60px auto;
+  max-width: 1300px;
+  margin: 30px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 .book{
   position: relative;
-  margin: 20px 0px;
-  width: 400px;
-  height: 500px;
+  margin: 40px 30px;
+  width: 500px;
+  height: 600px;
   background: #fff;
   transform-style: preserve-3d;
   transform: perspective(2000px);
   transition: 1s;
   box-shadow: 10px 10px 10px rgba(0,0,0,.5);
   
-  
-  
-  
 }
+
 .book:hover{
   z-index: 2;
   transform:perspective(2000px) rotate(-10deg);
@@ -79,7 +95,7 @@ main img{
   justify-content: center;
   align-items: center;
   text-align: center;
-  color:fuchsia;
+  color:white;
   padding: 10px;
   font-size: 42px;
   font-family: 'Capriola', sans-serif;
