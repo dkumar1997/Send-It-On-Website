@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+p{
+	color:red;
+}
+img{
+	float: left;
+}
+
+.starting{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	justify-self: center;
+	grid-gap: 50px;
+	width:90%;
+	margin: 100px 50px 50px 20px;
+	position: relative;
+	background-color: fuchsia;
+}
+.side-nav{
+	text-align: center;
+	text-decoration: none;
+	margin-top: 30px;
+	position: relative;
+
+}
+
+.side-nav ul{
+	list-style: none;
+	position: sticky;
+	top:100px;
+	z-index: 200;
+	
+}
+
+.information{
+	border-left: 10px solid black;
+	padding-left: 20px;
+}
+
+
+
+.second-title{
+	border-bottom: 10px solid black;
+	margin-bottom: 20px;
+	
+}
+
