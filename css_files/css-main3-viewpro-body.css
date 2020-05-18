@@ -1,12 +1,12 @@
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html{
   scroll-behavior: smooth;
 }
+
 .maintitle{
   font-size: 46px;
   font-family: 'Capriola', sans-serif;
@@ -16,16 +16,11 @@ html{
   text-transform: capitalize;
   margin-top: 50px;
   margin-bottom: 20px;
-}
-.intro{
-  text-align: center;
-  font-size: 18px;
-  margin: auto;
-  width:80%;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: 2px;
-  
+} 
+
+main img{
+  width: 80%;
+  margin-left: 170px;
 }
 .line{
   border-bottom: 1px solid;
@@ -68,25 +63,18 @@ a:hover{
 
 
 .side-nav .outerlist{
-	list-style: none;
+	list-style:decimal;
 	position: sticky;
 	top:140px;
 	z-index: 2;
 	width:100%;
-    margin-left: 20%;
-}
-.side-nav .outerlist .innerlist{
-  list-style: none;
-  margin-left: 20px;
+    margin-left: 30%;
 }
 
 .information{
 	border-left: 1px solid;
     border-color: #D3D3D3;
 	padding-left: 40px;
-}
-.information section{
-  margin: 20px 0px;
 }
 .information h2{
   margin: 10px 0px;
@@ -96,50 +84,28 @@ a:hover{
   font-size: 34px;
   padding-top: 100px;
   margin-top: -100px;
-  text-transform: uppercase;
+  text-transform: uppercase;  
+  text-align: center;
+}
+.information ul{
+  margin-left: 80px;
+  list-style: decimal;
+  margin-bottom: 20px;
   
-}
-.information h3{
-  font-family: 'Capriola', sans-serif;
-  letter-spacing: 3px;
-  font-weight: bolder;
-  margin-bottom: 10px;
-  margin-left:20px;
-  padding-top: 100px;
-  margin-top: -100px;
-  text-transform: uppercase;
-  font-size: 28px;
-}
-.information h4{
-  font-family: 'Capriola', sans-serif;
-  letter-spacing: 3px;
-  font-weight: bolder;
-  margin-left: 40px;
-  margin-bottom: 10px;
-  padding-top: 100px;
-  margin-top: -100px;
-  text-transform: uppercase;
-  font-size: 22px;
-}
-.top2 ul{
-  margin-left:50px; 
-}
-.directors ul{
-  margin-left: 90px;
-}
-.the-rest ul{
-  margin-left:70px;
-}
-.special ul{
-  margin-left: 90px;
 }
 .information li{
   font-family: 'Poppins', sans-serif;
   letter-spacing: 2px;
   font-size: 18px;
+  
 }
-
-
+.information p{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
 
 
