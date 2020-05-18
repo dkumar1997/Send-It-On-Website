@@ -74,6 +74,7 @@ a:hover{
 	z-index: 2;
 	width:100%;
     margin-left: 20%;
+    line-height: 30px;
 }
 .side-nav .outerlist .innerlist{
   list-style: none;
