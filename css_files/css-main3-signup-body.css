@@ -30,11 +30,35 @@ form{
 	margin-bottom: 10px;
 }
 
-.writing-q span{
-	
+.school-info p{
+	margin-bottom: 10px;
+}
+.school-info .yesorno{
+	margin-bottom: 10px;
+}
+.yesorno span{
+	margin-right: 30px;
+}
+.yesorno label{
+	margin: 20px;
+}
+.yesorno label input{
+	font-size: 100%;
+	margin: 5px;
 }
 
 
+.writing-q span{
+	
+}
+.time{
+	margin: 2px 0 5px 0;
+}
 
+
+.time label input{
+	font-size: 100%;
+	margin: 5px;
+}
 
 
