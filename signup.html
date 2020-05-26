@@ -11,6 +11,8 @@
     <link href="/css_files/css-main3-header.css" rel="stylesheet" type="text/css">
     <link href="/css_files/css-main3-signup-body.css" rel="stylesheet" type="text/css">
 		<link href="/css_files/css-main3-footer.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css">
+
     <script src="https://kit.fontawesome.com/23ef1400b6.js" crossorigin="anonymous"></script>
 			
   </head>
@@ -58,332 +60,348 @@
 		
     <main role="main">
       <article role="article">
-							<form>
-								<section class="introduction">
-									<div>
-										<h4>Name</h4>
-										<input type="text" placeholder="Full Name" required>
-									</div>
-									<div>
-										<h4>Email</h4>
-										<input type="text" placeholder="Email" required>
-									</div>
-									<div>
-										<h4>Age</h4>
-										<input type="text" Placeholder="Age" required>
-									</div>
-								</section>	
-								
-								<section class="school-info">
-										<p>Youth in our global communities are interested in working with mentors that have the same professional interests. We, therefore, would like to know more about your education and/or professional background.</p>
-									<div class="yesorno">
-										<span>Are you currently attending school?</span>
-											<label for="yes">
-												<input type="radio" id="yes" name="yes-no">Yes
-											</label>
-											<label for="no">
-												<input type="radio" id="no" name="yes-no">No
-											</label><br>
-									</div>
-									<div class="writing-q">
-										<span>If yes, what year are you in?</span>
-										<input type="text" required><br>
-										<span>What major are you currently in?</span>
-										<input type="text" required><br>
-										<span>If you are employed or take part in a professional endeavor, what area/field is the indicated employment/endeavor in?</span>
-										<input type="text" required>
-									</div>
-								</section>
-								
-								<section class="schedule">
-									<p>When you consider your current schedule and all set commitments, when do you have time to mentor? Please select below for available times.</p>
-									<span>Monday</span>
-									<div class="time">
-										<label for="morning">
-											<input type="checkbox" id="morning" name="m-m-a-e">Morning
-										</label>
-										<label for="afternoon">
-											<input type="checkbox" id="afternoon" name="m-m-a-e">Afternoon
-										</label>
-										<label for="evening">
-											<input type="checkbox" id="evening" name="m-m-a-e">Evening
-										</label><br>
-									</div>
-									
-									<span>Tuesday</span>
-									<div class="time">
-										<label for="morning">
-											<input type="checkbox" id="morning" name="tu-m-a-e">Morning
-										</label>
-										<label for="afternoon">
-											<input type="checkbox" id="afternoon" name="tu-m-a-e">Afternoon
-										</label>
-										<label for="evening">
-											<input type="checkbox" id="evening" name="tu-m-a-e">Evening
-										</label><br>
-									</div>
-									
-									<span>Wednesday</span>
-									<div class="time">
-										<label for="morning">
-											<input type="checkbox" id="morning" name="we-m-a-e">Morning
-										</label>
-										<label for="afternoon">
-											<input type="checkbox" id="afternoon" name="we-m-a-e">Afternoon
-										</label>
-										<label for="evening">
-											<input type="checkbox" id="evening" name="we-m-a-e">Evening
-										</label><br>
-									</div>
-									
-									<span>Thursday</span>
-									<div class=time>
-										<label for="morning">
-											<input type="checkbox" id="morning" name="th-m-a-e">Morning
-										</label>
-										<label for="afternoon">
-											<input type="checkbox" id="afternoon" name="th-m-a-e">Afternoon
-										</label>
-										<label for="evening">
-											<input type="checkbox" id="evening" name="th-m-a-e">Evening
-										</label><br>
-									</div>
-									
-									<span>Friday</span>
-									<div class="time">
-										<label for="morning">
-											<input type="checkbox" id="morning" name="fr-m-a-e">Morning
-										</label>
-										<label for="afternoon">
-											<input type="checkbox" id="afternoon" name="fr-m-a-e">Afternoon
-										</label>
-										<label for="evening">
-											<input type="checkbox" id="evening" name="fr-m-a-e">Evening
-										</label><br>
-										</div>
-									
-									<span>Saturday</span>
-									<div class="time">
-										<label for="morning">
-											<input type="checkbox" id="morning" name="st-m-a-e">Morning
-										</label>
-										<label for="afternoon">
-											<input type="checkbox" id="afternoon" name="st-m-a-e">Afternoon
-										</label>
-										<label for="evening">
-											<input type="checkbox" id="evening" name="st-m-a-e">Evening
-										</label><br>
-									</div>
-									
-									<span>Sunday</span>
-									<div class="time">
-										<label for="morning">
-											<input type="checkbox" id="morning" name="su-m-a-e">Morning
-										</label>
-										<label for="afternoon">
-											<input type="checkbox" id="afternoon" name="su-m-a-e">Afternoon
-										</label>
-										<label for="evening">
-											<input type="checkbox" id="evening" name="su-m-a-e">Evening
-										</label><br>
-									</div>
-									<span>Is your schedule likely to change significantly over the next year?</span>
-									<label for="yes">
-										<input type="radio" id="yes" name="yes-no-1">Yes
-									</label>
-									<label for="no">
-										<input type="radio" id="no" name="yes-no-1">No
-									</label><br>
-									
-								</section>	
-							
-								<section class="comfort">
-									<p>The youth in our global communities have often experienced some level of adversity during their childhood and/or adolescent years. We would like to know your comfort level with some of the most common experiences. </p>
-									<span>Bullying</span> 
-									<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort0">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort0">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort0">Not comfortable 
-									</label><br>
-									<span>Mental Health Concerns</span>
-									<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort">Not comfortable 
-									</label><br>
-									
-									<span>Poverty</span>
-									<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort1">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort1">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort1">Not comfortable 
-									</label><br>
-									
-									<span>Family History of Abuse</span> 
-									<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort2">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort2">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort2">Not comfortable 
-									</label><br>
-									
-									<span>HIV</span>
-									
-									<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort3">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort3">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort3">Not comfortable 
-									</label><br>
-									
-									<span>Serious Illness of Significant Individual</span> 
-									
-									<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort4">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort4">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort4">Not comfortable 
-									</label><br>
-									
-								
-									<span>Death of Significant Individual</span> 
-									<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort5">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort5">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort5">Not comfortable 
-									</label><br>
-									
-									<span>Living in a foster or group home</span> 
-									
-									<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort6">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort6">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort6">Not comfortable 
-									</label><br>
-									
-									<span>Living in an orphanage</span> 
-									
-									<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort7">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort7">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort7">Not comfortable 
-									</label><br>
-									
-									<span>Physical Disabilities</span> 
-									
-									<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort8">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort8">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort8">Not comfortable 
-									</label><br>
-									
-									<span>Family history of neglect</span> 
-									<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort9">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort9">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort9">Not comfortable 
-									</label><br>
-									
-									<span>Learning Disabilities</span>
-									
-								<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort10">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort10">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort10">Not comfortable 
-									</label><br>
-									
-									<span>Suicidal Ideation</span>
-									
-									<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort11">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort11">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort11">Not comfortable 
-									</label><br>
-									
-									<span>Low Self-esteem</span>
-									<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort12">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort12">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort12">Not comfortable 
-									</label><br>
-									
-									<span>Substance Abuse in the Family</span>
-										
-									<label for="comfortable">
-										<input type="radio" id="comfortable" name="comfort13">Comfortable
-									</label>
-									<label for="semicomfort">
-										<input type="radio" id="semicomfort" name="comfort13">Semi-comfortable
-									</label>
-									<label for="notcomfort">
-										<input type="radio" id="notcomfort" name="comfort13">Not comfortable 
-									</label><br>
-									
-									<p>Are there any other experiences or characteristics that you are uncomfortable with?</p>
-									<textarea name="uncomfort" rows="10" cols="100" placeholder="Please list your experiences or characteristics here."></textarea>
-									
-								</section>
-								
-								<section class="executive">
-									<p>If you are interested in taking an executive role within the SEND IT ON program, which areas do you feel you have experience and excel in? (i.e. organization, media development, communication with external partners, data liaison) Point form answers are fine.</p>
-									<textarea name="exec" rows="10" cols="100" placeholder="Please list your skills here."></textarea>
-								</section>
-								<button type="submit">Submit</button>
-							</form>
-					</article>
+        <form data-simplebar>
+          <section class="introduction">
+              <div>
+                  <h4>Name</h4>
+                  <input type="text" placeholder="Full Name" required>
+              </div>
+              <div>
+                  <h4>Email</h4>
+                  <input type="text" placeholder="Email" required>
+              </div>
+              <div>
+                  <h4>Age</h4>
+                  <input type="text" Placeholder="Age" required>
+              </div>
+          </section>	
+
+          <section class="school-info">
+                  <p>Youth in our global communities are interested in working with mentors that have the same professional interests. We, therefore, would like to know more about your education and/or professional background.</p>
+              <div class="yesorno">
+                  <span>Are you currently attending school?</span>
+                      <label for="yes">
+                          <input type="radio" id="yes" name="yes-no">Yes
+                      </label>
+                      <label for="no">
+                          <input type="radio" id="no" name="yes-no">No
+                      </label><br>
+              </div>
+              <div class="writing-q">
+                  <span>If yes, what year are you in?</span>
+                  <input type="text" required><br>
+                  <span>What major are you currently in?</span>
+                  <input type="text" required><br>
+                  <span>If you are employed or take part in a professional endeavor, what area/field is the indicated employment/endeavor in?</span>
+                  <input type="text" required>
+              </div>
+          </section>
+
+          <section class="schedule">
+              <p>When you consider your current schedule and all set commitments, when do you have time to mentor? <br>Please select below for available times.</p>
+            <div class="container">
+            
+              <h4>Day</h4>
+              <h4>Morning</h4>
+              <h4>Afternoon</h4>
+              <h4>Evening</h4>
+            
+                
+                  <span>Monday</span>
+              
+                  <label for="morning">
+                      <input type="checkbox" id="morning" name="m-m-a-e">
+                  </label>
+                  <label for="afternoon">
+                      <input type="checkbox" id="afternoon" name="m-m-a-e">
+                  </label>
+                  <label for="evening">
+                      <input type="checkbox" id="evening" name="m-m-a-e">
+                  </label>
+              
+              
+                <span>Tuesday</span>
+                
+                  <label>
+                      <input type="checkbox" id="morning" name="tu-m-a-e">
+                  </label>
+                  <label>
+                      <input type="checkbox" id="afternoon" name="tu-m-a-e">
+                  </label>
+                  <label>
+                      <input type="checkbox" id="evening" name="tu-m-a-e">
+                  </label>
+              
+              
+
+                <span>Wednesday</span>
+              
+                  <label>
+                      <input type="checkbox" id="morning" name="we-m-a-e">
+                  </label>
+                  <label >
+                      <input type="checkbox" id="afternoon" name="we-m-a-e">
+                  </label>
+                  <label>
+                      <input type="checkbox" id="evening" name="we-m-a-e">
+                  </label>
+              
+
+              <span>Thursday</span>
+              
+                  <label>
+                      <input type="checkbox" id="morning" name="th-m-a-e">
+                  </label>
+                  <label>
+                      <input type="checkbox" id="afternoon" name="th-m-a-e">
+                  </label>
+                  <label >
+                      <input type="checkbox" id="evening" name="th-m-a-e">
+                  </label>
+              
+
+              <span>Friday</span>
+              
+                  <label >
+                      <input type="checkbox" id="morning" name="fr-m-a-e">
+                  </label>
+                  <label>
+                      <input type="checkbox" id="afternoon" name="fr-m-a-e">
+                  </label>
+                  <label>
+                      <input type="checkbox" id="evening" name="fr-m-a-e">
+                  </label>
+                  
+
+              <span>Saturday</span>
+              
+                  <label >
+                      <input type="checkbox" id="morning" name="st-m-a-e">
+                  </label>
+                  <label>
+                      <input type="checkbox" id="afternoon" name="st-m-a-e">
+                  </label>
+                  <label>
+                      <input type="checkbox" id="evening" name="st-m-a-e">
+                  </label>
+              
+
+              <span>Sunday</span>
+              
+                  <label for="morning">
+                      <input type="checkbox" id="morning" name="su-m-a-e">
+                  </label>
+                  <label for="afternoon">
+                      <input type="checkbox" id="afternoon" name="su-m-a-e">
+                  </label>
+                  <label for="evening">
+                      <input type="checkbox" id="evening" name="su-m-a-e">
+                  </label>
+             
+              </div>
+              <span>Is your schedule likely to change significantly over the next year?</span>
+              <label for="yes">
+                  <input type="radio" id="yes" name="yes-no-1">Yes
+              </label>
+              <label for="no">
+                  <input type="radio" id="no" name="yes-no-1">No
+              </label><br>
+
+          </section>	
+
+          <section class="comfort">
+              <p>The youth in our global communities have often experienced some level of adversity during their childhood and/or adolescent years. We would like to know your comfort level with some of the most common experiences. </p>
+            <div class="container" >
+              <h4>Experiences</h4>
+              <h4>Comfortable</h4>
+              <h4>Semi-comfortable</h4>
+              <h4>Not comfortable</h4>
+              <span>Bullying</span> 
+              <label>
+                  <input type="radio" id="comfortable" name="comfort0">
+              </label>
+              <label>
+                  <input type="radio" id="semicomfort" name="comfort0">
+              </label>
+              <label>
+                  <input type="radio" id="notcomfort" name="comfort0"> 
+              </label>
+              
+              <span>Mental Health Concerns</span>
+              <label>
+                  <input type="radio" id="comfortable" name="comfort">
+              </label>
+              <label>
+                  <input type="radio" id="semicomfort" name="comfort">
+              </label>
+              <label>
+                  <input type="radio" id="notcomfort" name="comfort"> 
+              </label>
+
+              <span>Poverty</span>
+              <label>
+                  <input type="radio" id="comfortable" name="comfort1">
+              </label>
+              <label>
+                  <input type="radio" id="semicomfort" name="comfort1">
+              </label>
+              <label>
+                  <input type="radio" id="notcomfort" name="comfort1">
+              </label>
+
+              <span>Family History of Abuse</span> 
+              <label >
+                  <input type="radio" id="comfortable" name="comfort2">
+              </label>
+              <label >
+                  <input type="radio" id="semicomfort" name="comfort2">
+              </label>
+              <label >
+                  <input type="radio" id="notcomfort" name="comfort2"> 
+              </label>
+
+              <span>HIV</span>
+
+              <label>
+                  <input type="radio" id="comfortable" name="comfort3">
+              </label>
+              <label>
+                  <input type="radio" id="semicomfort" name="comfort3">
+              </label>
+              <label>
+                  <input type="radio" id="notcomfort" name="comfort3">
+              </label>
+
+              <span>Serious Illness of Significant Individual</span> 
+
+              <label >
+                  <input type="radio" id="comfortable" name="comfort4">
+              </label>
+              <label >
+                  <input type="radio" id="semicomfort" name="comfort4">
+              </label>
+              <label>
+                  <input type="radio" id="notcomfort" name="comfort4">
+              </label>
+
+
+              <span>Death of Significant Individual</span> 
+              <label>
+                  <input type="radio" id="comfortable" name="comfort5">
+              </label>
+              <label>
+                  <input type="radio" id="semicomfort" name="comfort5">
+              </label>
+              <label>
+                  <input type="radio" id="notcomfort" name="comfort5">
+              </label>
+
+              <span>Living in a foster or group home</span> 
+
+              <label>
+                  <input type="radio" id="comfortable" name="comfort6">
+              </label>
+              <label>
+                  <input type="radio" id="semicomfort" name="comfort6">
+              </label>
+              <label >
+                  <input type="radio" id="notcomfort" name="comfort6"> 
+              </label>
+
+              <span>Living in an orphanage</span> 
+
+              <label>
+                  <input type="radio" id="comfortable" name="comfort7">
+              </label>
+              <label>
+                  <input type="radio" id="semicomfort" name="comfort7">
+              </label>
+              <label>
+                  <input type="radio" id="notcomfort" name="comfort7"> 
+              </label>
+
+              <span>Physical Disabilities</span> 
+
+              <label>
+                  <input type="radio" id="comfortable" name="comfort8">
+              </label>
+              <label>
+                  <input type="radio" id="semicomfort" name="comfort8">
+              </label>
+              <label>
+                  <input type="radio" id="notcomfort" name="comfort8">
+              </label>
+
+              <span>Family history of neglect</span> 
+              <label>
+                  <input type="radio" id="comfortable" name="comfort9">
+              </label>
+              <label>
+                  <input type="radio" id="semicomfort" name="comfort9">
+              </label>
+              <label>
+                  <input type="radio" id="notcomfort" name="comfort9"> 
+              </label>
+
+              <span>Learning Disabilities</span>
+
+          <label>
+                  <input type="radio" id="comfortable" name="comfort10">
+              </label>
+              <label>
+                  <input type="radio" id="semicomfort" name="comfort10">
+              </label>
+              <label>
+                  <input type="radio" id="notcomfort" name="comfort10">
+              </label>
+
+              <span>Suicidal Ideation</span>
+
+              <label>
+                  <input type="radio" id="comfortable" name="comfort11">
+              </label>
+              <label>
+                  <input type="radio" id="semicomfort" name="comfort11">
+              </label>
+              <label>
+                  <input type="radio" id="notcomfort" name="comfort11">
+              </label>
+
+              <span>Low Self-esteem</span>
+              <label>
+                  <input type="radio" id="comfortable" name="comfort12">
+              </label>
+              <label>
+                  <input type="radio" id="semicomfort" name="comfort12">
+              </label>
+              <label>
+                  <input type="radio" id="notcomfort" name="comfort12">
+              </label>
+
+              <span>Substance Abuse in the Family</span>
+
+              <label>
+                  <input type="radio" id="comfortable" name="comfort13">
+              </label>
+              <label>
+                  <input type="radio" id="semicomfort" name="comfort13">
+              </label>
+              <label>
+                  <input type="radio" id="notcomfort" name="comfort13"> 
+              </label>
+          </div>
+              <p>Are there any other experiences or characteristics that you are uncomfortable with?</p>
+              <textarea name="uncomfort" rows="10" cols="60" placeholder="Please list your experiences or characteristics here."></textarea>
+              
+          </section>
+
+          <section class="executive">
+              <p>If you are interested in taking an executive role within the SEND IT ON program, which areas do you feel you have experience and excel in? (i.e. organization, media development, communication with external partners, data liaison) Point form answers are fine.</p>
+              <textarea name="exec" rows="10" cols="60" placeholder="Please list your skills here."></textarea>
+          </section>
+          <button type="submit">Submit</button>
+        </form>
+      </article>
     </main>
 		
     <footer role="contentinfo">
@@ -404,6 +422,7 @@
 
     
   </body>
+      <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
 		<script src="/js_files/main_page.js"></script>
   
 </html>
