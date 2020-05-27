@@ -60,8 +60,12 @@
 		
     <main role="main">
       <article role="article">
+        
         <form data-simplebar>
+          
           <section class="introduction">
+              <h2>SIGN UP FORM</h2>
+              <h3>Introduction</h3>
               <div>
                   <h4>Name</h4>
                   <input type="text" placeholder="Full Name" required>
@@ -77,15 +81,18 @@
           </section>	
 
           <section class="school-info">
+            <h3>Education</h3>
                   <p>Youth in our global communities are interested in working with mentors that have the same professional interests. We, therefore, would like to know more about your education and/or professional background.</p>
               <div class="yesorno">
                   <span>Are you currently attending school?</span>
-                      <label for="yes">
-                          <input type="radio" id="yes" name="yes-no">Yes
+                      <label >
+                          <h4>Yes</h4>
+                          <input type="radio" id="yes" name="yes-no">
                       </label>
-                      <label for="no">
-                          <input type="radio" id="no" name="yes-no">No
-                      </label><br>
+                      <label>
+                          <h4>No</h4>
+                          <input type="radio" id="no" name="yes-no">
+                      </label>
               </div>
               <div class="writing-q">
                   <span>If yes, what year are you in?</span>
@@ -98,6 +105,7 @@
           </section>
 
           <section class="schedule">
+            <h3>Availability</h3>
               <p>When you consider your current schedule and all set commitments, when do you have time to mentor? <br>Please select below for available times.</p>
             <div class="container">
             
@@ -109,13 +117,13 @@
                 
                   <span>Monday</span>
               
-                  <label for="morning">
+                  <label>
                       <input type="checkbox" id="morning" name="m-m-a-e">
                   </label>
-                  <label for="afternoon">
+                  <label >
                       <input type="checkbox" id="afternoon" name="m-m-a-e">
                   </label>
-                  <label for="evening">
+                  <label >
                       <input type="checkbox" id="evening" name="m-m-a-e">
                   </label>
               
@@ -199,17 +207,21 @@
                   </label>
              
               </div>
+            <div class="yesorno">
               <span>Is your schedule likely to change significantly over the next year?</span>
-              <label for="yes">
-                  <input type="radio" id="yes" name="yes-no-1">Yes
+              <label>
+                <h4>Yes</h4>
+                  <input type="radio" id="yes" name="yes-no-1">
               </label>
-              <label for="no">
-                  <input type="radio" id="no" name="yes-no-1">No
-              </label><br>
-
+              <label>
+                  <h4>No</h4>
+                  <input type="radio" id="no" name="yes-no-1">
+              </label>
+            </div>
           </section>	
 
           <section class="comfort">
+            <h3>Preferences</h3>
               <p>The youth in our global communities have often experienced some level of adversity during their childhood and/or adolescent years. We would like to know your comfort level with some of the most common experiences. </p>
             <div class="container" >
               <h4>Experiences</h4>
@@ -390,16 +402,17 @@
                   <input type="radio" id="notcomfort" name="comfort13"> 
               </label>
           </div>
-              <p>Are there any other experiences or characteristics that you are uncomfortable with?</p>
+              <p style="margin-bottom: 10px;">Are there any other experiences or characteristics that you are uncomfortable with?</p>
               <textarea name="uncomfort" rows="10" cols="60" placeholder="Please list your experiences or characteristics here."></textarea>
               
           </section>
 
           <section class="executive">
-              <p>If you are interested in taking an executive role within the SEND IT ON program, which areas do you feel you have experience and excel in? (i.e. organization, media development, communication with external partners, data liaison) Point form answers are fine.</p>
+            <h3>Executive Application</h3>
+              <p style="margin-bottom: 10px;">If you are interested in taking an executive role within the SEND IT ON program, which areas do you feel you have experience and excel in? (i.e. organization, media development, communication with external partners, data liaison) Point form answers are fine.</p>
               <textarea name="exec" rows="10" cols="60" placeholder="Please list your skills here."></textarea>
           </section>
-          <button type="submit">Submit</button>
+          <button type="submit" class="submit">Submit</button>
         </form>
       </article>
     </main>

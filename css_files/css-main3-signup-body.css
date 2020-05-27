@@ -6,19 +6,49 @@
 }
 form{
 	background-color: rgba(75,0,130,0.3);
-	width: 800px;
-    height: 600px;
+	width: 700px;
+    height: 700px;
 	margin:100px auto;
 	border: 3px solid black;
 	padding: 30px;
 }
-
+form h4, form button, form h2, form h3{
+  font-family: 'Capriola', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-size: 13px;
+}
+form span, form p{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  font-size: 11px;
+}
+.introduction h2{
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+form h3{
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
 .introduction,.school-info{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	margin-bottom: 20px;
 	
+}
+.yesorno{
+  display: flex;
+  align-items: center;
+}
+.yesorno label{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .introduction input, .school-info .writing-q input{
@@ -32,8 +62,8 @@ form{
 }
 input[type='checkbox'], input[type="radio"] {
     -webkit-appearance:none;
-    width:50px;
-    height:50px;
+    width:40px;
+    height:40px;
     background:white;
     border-radius:5px;
     border:2px solid #555;
@@ -41,6 +71,7 @@ input[type='checkbox'], input[type="radio"] {
 input[type='checkbox']:checked, input[type="radio"]:checked {
     background-color:#534B4F;
 }
+
 .container{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -64,27 +95,35 @@ input[type='checkbox']:checked, input[type="radio"]:checked {
 	margin-right: 30px;
 }
 .yesorno label{
-	margin: 20px;
+	margin: 0 20px 25px 20px;
 }
 .yesorno label input{
 	font-size: 100%;
 	margin: 5px;
 }
 
-
-.writing-q span{
-	
+.comfort{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.time{
-	margin: 2px 0 5px 0;
-    display: flex;
-    justify-content: space-around;
+.submit{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  margin: 20px auto;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: beige;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.submit:hover{
+  background-color: darkslategrey;
 }
 
 
-.time label input{
-	font-size: 100%;
-	margin: 5px;
-}
+
+
 
 
