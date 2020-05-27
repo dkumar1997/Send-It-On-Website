@@ -114,7 +114,7 @@ input[type='checkbox']:checked, input[type="radio"]:checked {
   border: 1px solid black;
   padding: 10px;
   background-color: beige;
-  border-radius: 5px;
+  border-radius: 50px;
   font-weight: bold;
   transition: 0.5s;
 }
