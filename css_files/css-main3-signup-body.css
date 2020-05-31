@@ -13,6 +13,9 @@
  transition: 200ms ease-in-out;
  z-index: 150;
  
+ width:80%;
+ height: 80%;
+ overflow: scroll;
 }
 .modal.active{
  transform: translate(-50%,-50%) scale(1);
@@ -93,11 +96,12 @@
 
 form{
 	background-color:#9370DB;
-	width: 700px;
-  height: 750px;
+	width: 100%;
+  height: 100%;
 	border: 3px solid black;
 	padding: 30px;
  	padding-top: 0px;
+ margin:auto;
 }
 form h4, form button, form h2, form h3{
   font-family: 'Capriola', sans-serif;
@@ -149,8 +153,8 @@ form h3{
 }
 input[type='checkbox'], input[type="radio"] {
     -webkit-appearance:none;
-    width:40px;
-    height:40px;
+    width:2rem;
+    height:2rem;
     background:white;
     border-radius:5px;
     border:2px solid #555;
@@ -168,7 +172,7 @@ input[type='checkbox']:checked, input[type="radio"]:checked {
   justify-items: center;
   align-items: center;
   grid-gap: 10px;
-  border: 2px solid black;
+ 
   padding: 10px;
   text-align: center;
 }
@@ -207,6 +211,11 @@ input[type='checkbox']:checked, input[type="radio"]:checked {
 }
 .submit:hover{
   background-color: darkslategrey;
+}
+textarea{
+ resize: none;
+ width: 100%;
+ height: 100%;
 }
 
 
