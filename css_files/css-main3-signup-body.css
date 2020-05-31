@@ -4,11 +4,50 @@
 	box-sizing: border-box;
 	outline: none;
 }
+.modal{
+ position: fixed;
+ top:50%;
+ left:50%;
+  
+ transform: translate(-50%,-50%) scale(0);
+ transition: 200ms ease-in-out;
+ z-index: 150;
+ 
+}
+.modal.active{
+ transform: translate(-50%,-50%) scale(1);
+}
+.close-button{
+ cursor: pointer;
+ border: none;
+ font-size: 1.2rem;
+ margin: auto;
+ background: none;
+ margin-bottom: 20px;
+ outline: none;
+ font-weight: bold;
+ 
+}
+#overlay{
+ position: fixed;
+ top:0;
+ left:0;
+ bottom: 0;
+ right: 0;
+ opacity: 0;
+ background-color: rgba(0,0,0,.5);
+ transition: 200ms ease-in-out;
+ pointer-events: none;
+}
+#overlay.active{
+ opacity: 1;
+ pointer-events: all;
+}
 .title{
   text-align: center;
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-size: 42px;
   font-family: 'Capriola', sans-serif;
   letter-spacing: 3px;
@@ -17,22 +56,48 @@
 }
 .quote{
   font-size: 20px;
-  margin-top:30px;
+  margin-top:10px;
  	text-align: center;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 2px;
  
 }
+.button-center{
+ display: flex;
+ justify-content: center;
+ margin: 30px auto;
+ z-index: 11;
+}
+.main-button{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+ font-family: 'Capriola', sans-serif;
+ 	
+}
 
+.main-button:hover {background-color: lightgray}
 
+.main-button:active {
+  background-color: lightgray;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 form{
-	background-color: rgba(75,0,130,0.3);
+	background-color:#9370DB;
 	width: 700px;
-    height: 700px;
-	margin:100px auto;
+  height: 750px;
 	border: 3px solid black;
 	padding: 30px;
+ 	padding-top: 0px;
 }
 form h4, form button, form h2, form h3{
   font-family: 'Capriola', sans-serif;
