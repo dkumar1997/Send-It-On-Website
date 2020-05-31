@@ -4,6 +4,28 @@
 	box-sizing: border-box;
 	outline: none;
 }
+.title{
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 42px;
+  font-family: 'Capriola', sans-serif;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  text-align: center;
+}
+.quote{
+  font-size: 20px;
+  margin-top:30px;
+ 	text-align: center;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+ 
+}
+
+
+
 form{
 	background-color: rgba(75,0,130,0.3);
 	width: 700px;
