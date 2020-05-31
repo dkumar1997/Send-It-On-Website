@@ -55,6 +55,7 @@
   font-weight: bolder;
   text-align: center;
 }
+
 .quote{
   font-size: 20px;
   margin-top:10px;
@@ -102,16 +103,16 @@ form{
  overflow: scroll;
 }
 form h4, form button, form h2, form h3{
-  font-family: 'Capriola', sans-serif;
+  font-family: 'Playfair Display', serif;
   letter-spacing: 2px;
   font-weight: bolder;
   text-transform: capitalize;
-  font-size: 13px;
+  font-size: 25px;
 }
 form span, form p{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 1px;
-  font-size: 11px;
+  font-size: 20px;
 }
 .introduction h2{
   text-align: center;
@@ -120,7 +121,7 @@ form span, form p{
 }
 form h3{
   text-align: center;
-  font-size: 16px;
+  font-size: 25px;
   margin-bottom: 20px;
 }
 .introduction,.school-info{
