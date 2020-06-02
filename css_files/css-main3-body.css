@@ -37,9 +37,7 @@ p{
 }
 
 
-
-
-.card1{
+.card1, .card2, .card3, .card4, .card5, .card6{
 	position: relative;
 	transform-style: preserve-3d;
 	transition: 0.9s;
@@ -47,9 +45,12 @@ p{
 	width:600px;
 	height: 500px;
 	float: left;
+	margin-top: 50px;
+	width:450px;
+	height: 350px;
 }
 
-.card1 .front{
+.card1 .front, .card2 .front, .card3 .front, .card4 .front, .card5 .front, .card6 .front{
 	position: absolute;
 	top:0;
 	left: 0;
@@ -67,16 +68,15 @@ p{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 }
 
 
 
-.card1:hover .front{
+.card1:hover .front, .card2:hover .front, .card3:hover .front, .card4:hover .front, .card5:hover .front, .card6:hover .front{
 	transform: rotateX(-180deg);
 }
 
-.card1 .back{
+.card1 .back, .card2 .back, .card3 .back, .card4 .back, .card5 .back, .card6 .back{
 	position: absolute;
 	top:0;
 	left: 0;
@@ -90,205 +90,39 @@ p{
 	transform: rotateX(180deg);
 	transition: 0.9s;
 }
-.card1:hover .back{
+.card1:hover .back, .card2:hover .back, .card3:hover .back, .card4:hover .back, .card5:hover .back, .card6:hover .back{
 	transform: rotateX(0deg);
 }
 .card1 .back iframe{
 	text-align: center;
 }
 
-
-.card2{
-	position: relative;
-	transform-style: preserve-3d;
-	transition: 0.9s;
-	perspective: 600px;
-	width:600px;
-	height: 500px;
-	float: left;
-	
+.card2 .back, .card3 .back, .card4 .back, .card5 .back, .card6 .back{
+	background-image: url(../images/main_image1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
 
 .card2 .front{
-	position: absolute;
-	top:0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #000;
-	backface-visibility: hidden;
-	transform: rotateX(0deg);
-	transition: 0.9s;
 	background-image: url(../images/hands.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
 }
-
-
-
-.card2:hover .front{
-	transform: rotateX(-180deg);
-}
-
-.card2 .back{
-	position: absolute;
-	top:0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #000;
-	backface-visibility: hidden;
-	transform: rotateX(180deg);
-	transition: 0.9s;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-image: url(../images/main_image1.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-}
-.card2:hover .back{
-	transform: rotateX(0deg);
-}
-
-
-
-.card3{
-	position: relative;
-	transform-style: preserve-3d;
-	transition: 0.9s;
-	perspective: 600px;
-	width:600px;
-	height: 500px;
-	float: left;
-	
-	
-}
-
 
 .card3 .front{
-	position: absolute;
-	top:0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #000;
-	backface-visibility: hidden;
-	transform: rotateX(0deg);
-	transition: 0.9s;
 	background-image: url(../images/sparkler2.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
 }
-
-
-
-.card3:hover .front{
-	transform: rotateX(-180deg);
-}
-
-.card3 .back{
-	position: absolute;
-	top:0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: cadetblue;
-	backface-visibility: hidden;
-	transform: rotateX(180deg);
-	transition: 0.9s;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-image: url(../images/main_image1.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-}
-
-.card3:hover .back{
-	transform: rotateX(0deg);
-}
-
-
-.card4{
-	position: relative;
-	transform-style: preserve-3d;
-	transition: 0.9s;
-	perspective: 600px;
-	width:600px;
-	height: 500px;
-	float: left;
-	
-}
-
-
 .card4 .front{
-	position: absolute;
-	top:0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #000;
-	backface-visibility: hidden;
-	transform: rotateX(0deg);
-	transition: 0.9s;
 	background-image: url(../images/global-com.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
 }
 
-
-
-.card4:hover .front{
-	transform: rotateX(-180deg);
+.card5 .front{
+	background-image: url(../images/globe.jpg);
 }
 
-.card4 .back{
-	position: absolute;
-	top:0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #000;
-	backface-visibility: hidden;
-	transform: rotateX(180deg);
-	transition: 0.9s;
-	background-image: url(../images/main_image1.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.card6 .front{
+	background-image: url(../images/people-drinks.jpg);
 }
-.card4:hover .back{
-	transform: rotateX(0deg);
-}
-.card1,.card2,.card3,.card4{
-	margin-top: 50px;
-	width:450px;
-	height: 350px;
-}
+
 
 
