@@ -31,14 +31,14 @@ main img{
   margin-top: 40px;
 }
 
-a{
+main a{
   text-decoration: none;
   color: black;
   font-weight: normal;
   transition:0.5s;
   
 }
-a:hover{
+main a:hover{
   color: lightblue;
 }
 

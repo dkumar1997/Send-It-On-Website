@@ -28,16 +28,18 @@
   font-family: 'Poppins', sans-serif;
   letter-spacing: 2px;
 	padding: 10px;
+  width: 90%;
+  margin:auto;
  
 }
 
 .contact-form{
 	display: grid;
 	grid-template-areas: 
-		"name name  email email"
-		"message message message message"
-		"message message message message"
-		". submit submit ."
+		"name email"
+		"message message"
+		"message message"
+		"submit submit"
 		;
 	grid-gap: 20px;
 	width:70%;
@@ -54,8 +56,13 @@
 	color: white;
 	margin-top: 20px;
 	cursor: pointer;
+    width:30%;
+    margin: auto;
+  transition: 0.5s;
 }
-
+.submit:hover{
+  background-color: darkcyan;
+}
 
 .name{
 	grid-area: name;

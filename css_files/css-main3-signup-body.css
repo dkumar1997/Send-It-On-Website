@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	outline: none;
 }
+
 .modal{
  position: fixed;
  top:50%;
@@ -62,6 +63,8 @@
  	text-align: center;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 2px;
+  width:90%;
+  margin: auto;
  
 }
 .button-center{
@@ -77,18 +80,19 @@
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: gray;
+  background-color: #8BBEE8FF;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
  font-family: 'Capriola', sans-serif;
+  transition: 0.3s;
  	
 }
 
-.main-button:hover {background-color: lightgray}
+.main-button:hover {background-color: darkcyan}
 
 .main-button:active {
-  background-color: lightgray;
+  background-color: darkcyan;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -206,7 +210,7 @@ input[type='checkbox']:checked, input[type="radio"]:checked {
   margin: 20px auto;
   border: 1px solid black;
   padding: 10px;
-  background-color: beige;
+  background-color: #8BBEE8FF;
   border-radius: 50px;
   font-weight: bold;
   transition: 0.5s;

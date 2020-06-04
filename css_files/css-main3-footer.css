@@ -30,6 +30,7 @@ footer{
 
 .connecting{
 	line-height: 30px;
+  
 }
 .connecting h4{
 	font-size: 20px;
@@ -37,11 +38,22 @@ footer{
 	font-family: 'Poppins', sans-serif;
 }
 
-i{
+.connecting i{
 	color: black;
 	transition: 0.5s;
 	
 }
-i:hover{
+.connecting i:hover{
 	color: blue;
+}
+.connecting a{
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  transition:0.5s;
+  
+}
+.connecting a:hover{
+  color: lightblue;
+  text-decoration: none;
 }

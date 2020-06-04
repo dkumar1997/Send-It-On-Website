@@ -26,14 +26,17 @@ html{
   margin-top: 40px;
 }
 
-a{
+main a{
   text-decoration: none;
   color: black;
   font-weight: normal;
   transition:0.3s;
   
 }
-a:hover{
+.conclusion a{
+  text-decoration: underline;
+}
+main a:hover{
   color: lightblue;
 }
 
