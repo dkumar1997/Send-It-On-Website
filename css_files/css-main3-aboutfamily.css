@@ -26,6 +26,13 @@
   font-weight: bolder;
   text-align: center;
 }
+.line{
+  border-bottom: 1px solid;
+  border-color: #D3D3D3;
+  width: 50%;
+  margin: 0px auto;
+  margin-top: 40px;
+}
 .slide p{
   text-align: center;
   font-family: 'Poppins', sans-serif;
