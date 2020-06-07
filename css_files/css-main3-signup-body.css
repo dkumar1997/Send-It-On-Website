@@ -80,7 +80,7 @@
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #8BBEE8FF;
+  background-color: lightblue;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
@@ -110,7 +110,7 @@ form h4, form button, form h2, form h3{
   font-family: 'Playfair Display', serif;
   letter-spacing: 2px;
   font-weight: bolder;
-  text-transform: capitalize;
+  
   font-size: 25px;
 }
 form span, form p{

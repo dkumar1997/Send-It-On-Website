@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.topintro{
+	margin-bottom: 60px;
+}
 .extra-info{
 	background-color: rgba(173, 216, 230,0.5);
 	padding: 10px;
