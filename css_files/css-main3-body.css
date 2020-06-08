@@ -42,8 +42,7 @@ p{
 	transform-style: preserve-3d;
 	transition: 0.9s;
 	perspective: 600px;
-	width:600px;
-	height: 500px;
+	
 	float: left;
 	margin-top: 50px;
 	width:450px;
@@ -98,7 +97,7 @@ p{
 }
 
 .card2 .back, .card3 .back, .card4 .back, .card5 .back, .card6 .back{
-	background-image: url(../images/main_image1.jpg);
+	background-image: url(../images/orange-rough.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;

@@ -98,7 +98,7 @@
 }
 
 form{
-	background-color:lightblue;
+	background-color: #E5E6FA;
 	width: 100%;
   height: 100%;
 	border: 3px solid black;
@@ -206,17 +206,17 @@ input[type='checkbox']:checked, input[type="radio"]:checked {
 .submit{
   display: flex;
   justify-content: center;
-  width: 30%;
+  width: 20%;
   margin: 20px auto;
   border: 1px solid black;
   padding: 10px;
-  background-color: #8BBEE8FF;
+  background-color:#B10F2E;
   border-radius: 50px;
   font-weight: bold;
   transition: 0.5s;
 }
 .submit:hover{
-  background-color: darkslategrey;
+  background-color: #570000;
 }
 textarea{
  resize: none;
