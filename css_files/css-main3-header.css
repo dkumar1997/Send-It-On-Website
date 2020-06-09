@@ -39,8 +39,12 @@ header nav ul{
 header nav ul li{
   list-style: none;
   position: relative;
-  margin: 0 20px;
+  
+	width:210px;
 	
+}
+header nav ul .supportingcase{
+	width:280px;
 }
 
 header nav ul .sub-menu:before{
@@ -83,9 +87,7 @@ header nav ul li ul li a:hover{
   color:#fff;
   background-color: aqua;
 }
-.special{
-  right: 0;
-}
+
 
 
 
