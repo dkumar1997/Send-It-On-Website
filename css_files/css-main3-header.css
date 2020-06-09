@@ -11,13 +11,13 @@ header{
     padding: 0 80px;
     box-sizing: border-box;
     z-index: 200;
-    background-color: #262626;
-    
+    background-color: darkgray;
+    height: 65px;
     
 }
 
 header .logo{
-  height: 50px;
+  height: 60px;
   line-height: 50px;
   float: left;
   font-weight: bold;
@@ -33,13 +33,14 @@ header nav ul{
   margin: 0;
   padding: 0;
   display: flex; 
- 
+ 	
  
 }
 header nav ul li{
   list-style: none;
   position: relative;
   margin: 0 20px;
+	
 }
 
 header nav ul .sub-menu:before{
@@ -47,7 +48,7 @@ header nav ul .sub-menu:before{
   font-family: FontAwesome;
   font-style: normal;
   position: absolute;
-  line-height: 55px;
+  line-height: 65px;
   color: #fff;
   right:5px;
 }
@@ -89,8 +90,8 @@ header nav ul li ul li a:hover{
 
 
 header nav ul li a{
-  height: 55px;
-  line-height: 55px;
+  height: 65px;
+  line-height: 65px;
   padding: 0 20px;
   color: #fff;
   display: block;
@@ -104,13 +105,14 @@ header nav ul li a{
 }
 header nav ul li a:hover{
   color:#fff;
-  background-color: aqua;
+  background-color: cadetblue;
   text-decoration: none;
 }
 .menu-toggle{
   color:#fff;
   float: right;
-  line-height: 50px;
+  line-height: 65px;
+	height: 65px;
   font-size: 24px;
   cursor: pointer;
   display: none;
@@ -143,9 +145,9 @@ header nav ul li a:hover{
     
     position: absolute;
     width: 100%;
-    height: calc(100vh - 55px);
+    height: calc(100vh - 65px);
     background: #333;
-    top:55px;
+    top:65px;
     left:-100%;
     transition: 0.5s;
   }
@@ -158,8 +160,11 @@ header nav ul li a:hover{
   }
   header nav ul li{
     margin: 0;
-  }
-
+  }	
+	header nav ul li a{
+		height: 55px;
+		line-height: 55px;
+	}
   
   header nav ul li.active ul{
     position: relative;
