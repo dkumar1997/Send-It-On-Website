@@ -1,132 +1,173 @@
 *{
     margin:0;
     padding: 0;
-    box-sizing: border-box;
-    
- 
+    box-sizing: border-box; 
 }
 header{
-    background-image: url(../images/reduced-form.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     width:100%;
-    height: 500px;
+    position: fixed;
+    top:0;
+    left:0;
+    padding: 0 80px;
+    box-sizing: border-box;
+    z-index: 200;
+    background-color: #262626;
+    
     
 }
 
-
-
-
-.nav-bar{
-	display: flex;
-	position: fixed;
-	width:100%;
-	justify-content:space-around;
-	align-items: center;
-	opacity: 100%;
-	z-index: 10;
-	transition: top 0.5s;
-   
-}
-.nav-bar-color{
-	background-color: darkgray;
-
-}
-.small-logo{
-    margin-top:10px;
-}
-
-nav{
-    width:100%;
-    height: 100%;
-	
-}
-
-nav li{
-  position: relative;
-  text-align: center;
-  width: 100%;
+header .logo{
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  font-weight: bold;
+  margin-top: 5px;
   
 }
 
 
-.navigation-links{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    justify-content:center;
+header nav{
+  float:right;
 }
-.navigation-links > li{
-    padding: 20px;
-    transition:0.5s;
-    margin: 0px 30px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-weight:bolder;
-    font-size: 17px;
-    cursor: pointer;
-  
-	
-	
-	
-    
-}
-
-
-.navigation-links > li:hover{
-    background-color:cadetblue;
+header nav ul{
+  margin: 0;
+  padding: 0;
+  display: flex; 
  
-    
+ 
 }
-.navigation-links li a{
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-weight:bolder;
-    font-size: 17px;
-    
-}
-.inside-list{
-  background-color: cadetblue;
+header nav ul li{
   list-style: none;
+  position: relative;
+  margin: 0 20px;
+}
+
+header nav ul .sub-menu:before{
+  content: '\f0d7';
+  font-family: FontAwesome;
+  font-style: normal;
   position: absolute;
-  top:65px;
-  left:0;
-  width: 100%;
-  
-  
-	
-	
+  line-height: 55px;
+  color: #fff;
+  right:5px;
 }
-/*
-top 66
-top 88px when 2 block when writing
-*/
-.inside-list li{
-	width: 100%;
-    height: 100px;
-	text-align: center;
-	display: none;
-	
-	
+
+header nav ul li ul{
+  position: absolute;
+  right:0;
+  background: #333;
+  display: none;
+ 
 }
-.navigation-links li:hover .inside-list li{
-	display: flex;
-  flex-direction: column;
+header nav ul li.active ul{
+  display: block;
+}
+header nav ul li ul li{
+  display: block;
+  width:320px;
+  padding: 0px;
+  margin: 0px;
+  height: 50px;
+}
+header nav ul li ul li a{
+  width:100%;
+  height: 100%;
+  line-height: 20px;
+  text-align: center;
+  display: flex;
   justify-content: center;
   align-items: center;
-	top: 0px;
 }
-.inside-list li a {
-  padding: 20px;
+header nav ul li ul li a:hover{
+  color:#fff;
+  background-color: aqua;
+}
+.special{
+  right: 0;
+}
+
+
+
+header nav ul li a{
+  height: 55px;
+  line-height: 55px;
+  padding: 0 20px;
+  color: #fff;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight:bolder;
+  font-size: 1rem;
+  
+  
+}
+header nav ul li a:hover{
+  color:#fff;
+  background-color: aqua;
+  text-decoration: none;
+}
+.menu-toggle{
+  color:#fff;
+  float: right;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+.big-image{
   width: 100%;
-  
-  
+  height: 500px;
+  background-image: url(../images/reduced-form.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
-.inside-list li a:hover{
-	background-color: aqua;
+
+@media (max-width:1210px){
+  main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: env(safe-area-inset);
+    overflow: hidden;
+  }
+  header{
+    padding: 0 20px;
+    
+  }
+  .menu-toggle{
+    display: block;
+  }
+  header nav{
+    
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 55px);
+    background: #333;
+    top:55px;
+    left:-100%;
+    transition: 0.5s;
+  }
+  header .active{
+    left:0px;
+  }
+  header nav ul{
+    display: block;
+    text-align: center;
+  }
+  header nav ul li{
+    margin: 0;
+  }
+
+  
+  header nav ul li.active ul{
+    position: relative;
+   
+  }
+  header nav ul li ul li{
+    width:100%;
+    background-color:cadetblue;
+  }
+  
 }

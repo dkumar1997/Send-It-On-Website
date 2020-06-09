@@ -49,16 +49,16 @@
 .submit{
 	grid-area: submit;
 	background-color: lightblue;
-	font-size: 2rem;
+	font-size: 3vw;
 	font-family: 'Capriola', sans-serif;
 	border: none;
 	border-radius: 60px;
 	color: white;
-	margin-top: 20px;
+	padding: 0;
 	cursor: pointer;
     width:30%;
-    margin: auto;
-  transition: 0.5s;
+    margin: 20px auto 0px auto;
+    transition: 0.5s;
 }
 .submit:hover{
   background-color: darkcyan;
