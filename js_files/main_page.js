@@ -18,10 +18,10 @@ function checkWidth(init)
 {
     /*If browser resized, check width again */
     if ($(window).width() < 1290) {
-        $('ul li').removeClass('hover');
+        $('ul li').removeClass('fronthover');
     }
     else{
-      $('ul li').addClass('hover')
+      $('ul li').addClass('fronthover')
     }
     
 }

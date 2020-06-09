@@ -51,7 +51,7 @@ header nav ul .joincase, header nav ul .joincase ul li{
 }
 
 header nav ul .supportingcase, header nav ul .supportingcase ul li{
-	width:280px;
+	width:280px ;
 }
 header nav ul .aboutcase,header nav ul .aboutcase ul li{
     width:160px;
@@ -76,7 +76,7 @@ header nav ul li ul{
  
 }
 
-header nav ul li.hover:hover ul{
+header nav ul li.fronthover:hover ul{
   display: block;
 }
 header nav ul li ul li{
