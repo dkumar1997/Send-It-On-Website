@@ -39,13 +39,24 @@ header nav ul{
 header nav ul li{
   list-style: none;
   position: relative;
-  
-	width:210px;
+  margin: 0 20px;
+  width:210px;
 	
 }
-header nav ul .supportingcase{
+header nav ul .globalcase, header nav ul .globalcase ul li{
+  width:210px;
+}
+header nav ul .joincase, header nav ul .joincase ul li{
+  width:210px;
+}
+
+header nav ul .supportingcase, header nav ul .supportingcase ul li{
 	width:280px;
 }
+header nav ul .aboutcase,header nav ul .aboutcase ul li{
+    width:160px;
+}
+
 
 header nav ul .sub-menu:before{
   content: '\f0d7';
@@ -64,15 +75,16 @@ header nav ul li ul{
   display: none;
  
 }
-header nav ul li.active ul{
+
+header nav ul li.hover:hover ul{
   display: block;
 }
 header nav ul li ul li{
   display: block;
-  width:320px;
+  
   padding: 0px;
   margin: 0px;
-  height: 50px;
+  height: 100px;
 }
 header nav ul li ul li a{
   width:100%;
@@ -121,6 +133,7 @@ header nav ul li a:hover{
 }
 .big-image{
   width: 100%;
+  margin-top: 65px;
   height: 500px;
   background-image: url(../images/reduced-form.png);
   background-repeat: no-repeat;
@@ -128,7 +141,7 @@ header nav ul li a:hover{
   background-position: center center;
 }
 
-@media (max-width:1210px){
+@media (max-width:1290px){
   main{
     margin: 0;
     padding: 0;
@@ -162,19 +175,29 @@ header nav ul li a:hover{
   }
   header nav ul li{
     margin: 0;
+    
   }	
-	header nav ul li a{
-		height: 55px;
-		line-height: 55px;
-	}
+  
+  header nav ul li a{
+    height: 60px;
+    line-height: 60px;
+  }
   
   header nav ul li.active ul{
     position: relative;
-   
   }
   header nav ul li ul li{
     width:100%;
     background-color:#92828D;
+    height: 50px;
   }
+  
+  header nav ul .globalcase, header nav ul .globalcase ul li, header nav ul .joincase, header nav ul .joincase ul li, header nav ul .supportingcase, header nav ul .supportingcase ul li,header nav ul .aboutcase,header nav ul .aboutcase ul li{
+    width:100%;
+  }
+  header nav ul li.active ul{
+  display: block;
+  }
+  
   
 }

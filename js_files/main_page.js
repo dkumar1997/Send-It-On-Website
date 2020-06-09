@@ -13,3 +13,23 @@ $(document).ready(function(){
 })
 
 
+
+function checkWidth(init)
+{
+    /*If browser resized, check width again */
+    if ($(window).width() < 1290) {
+        $('ul li').removeClass('hover');
+    }
+    else{
+      $('ul li').addClass('hover')
+    }
+    
+}
+
+$(document).ready(function() {
+    checkWidth(true);
+
+    $(window).resize(function() {
+        checkWidth(false);
+    });
+});
