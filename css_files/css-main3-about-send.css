@@ -48,9 +48,32 @@
 	font-size: 30px;
 	text-transform: uppercase;
 }
+
 td{
-  font-size: 17px;
+  font-size: 1rem;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
+}
+.phonetable{
+  display: none;
+}
+.phonetable p{
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  padding: 0 2px;
+}
+.phonetable h4{
+  text-align: center;
+  font-family: 'Capriola', sans-serif;
+  font-size: 1.4rem;
+}
+@media(max-width:1060px){
+  .table{
+    display: none;
+  }
+  .phonetable{
+    display: contents;
+  }
 }
 
