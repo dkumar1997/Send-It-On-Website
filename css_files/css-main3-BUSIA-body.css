@@ -110,7 +110,7 @@ html{
   margin: 20px;
   margin-bottom: 50px;
   height: auto;
-  width:60%;
+  width:500px;
 }
 
 video{
@@ -131,7 +131,10 @@ video{
 	margin-left: 20px;
 }
 
-@media (max-width: 891px){
+@media (max-width: 1322px){
+  .information .image-write{
+    flex-direction: column;
+  }
   .starting{
     grid-template-columns: 1fr;
   }
@@ -141,9 +144,11 @@ video{
   }
   .information img{
     width:90%;
+    height: auto;
+    
   }
   .information video{
-    width:90%;
+    width: 90%;
     height: auto;
   }
 }

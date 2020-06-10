@@ -23,17 +23,17 @@
 }
 
 
-p{
+main p{
   text-align: center;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 2px;
-  font-size: 17px;
+  font-size: 1.1rem;
   
   
 }
 
 .references{
-  font-size: 12px;
+  font-size: .7rem;
 }
 
 main{
@@ -74,7 +74,7 @@ main img{
 
 .book:hover{
   z-index: 2;
-  transform:perspective(2000px) rotate(-10deg);
+  transform:perspective(2000px) rotate(-8deg);
   box-shadow: inset 40px 0 100px rgba(0,0,0,.5);
   
   
@@ -99,7 +99,7 @@ main img{
   text-align: center;
   color:white;
   padding: 10px;
-  font-size: 42px;
+  font-size: 2.6rem;
   font-family: 'Capriola', sans-serif;
   letter-spacing: 3px;
   font-weight: bolder;
@@ -154,4 +154,12 @@ this is the only if you wanna make the title disappear
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+@media(max-width:560px){
+  main p{
+    font-size: 0.8rem;
+  }
+  main .references{
+    font-size: 0.65rem;
+  }
 }

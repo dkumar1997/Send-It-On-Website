@@ -98,3 +98,14 @@ textarea{
 	border: 2px solid black;
 	font-family: 'Poppins', sans-serif;
 }
+@media(max-width:994px){
+  .contact-form{
+    grid-template-areas: 
+      "name name"
+      "email email"
+      "message message"
+      "message message"
+      "submit submit"
+    ;
+  }
+}

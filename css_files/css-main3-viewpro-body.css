@@ -19,9 +19,13 @@ html{
   margin-bottom: 20px;
 } 
 
+.arrows{
+  display: flex;
+  justify-content: center;
+}
 main img{
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  height: auto;
 }
 .line{
   border-bottom: 1px solid;
@@ -62,7 +66,7 @@ main a:hover{
 .side-nav li{
   font-family: 'Capriola', sans-serif;
   letter-spacing: 1px;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 
@@ -86,7 +90,7 @@ main a:hover{
   font-family: 'Capriola', sans-serif;
   letter-spacing: 3px;
   font-weight: bolder;
-  font-size: 34px;
+  font-size: 2rem;
   padding-top: 100px;
   margin-top: -100px;
   text-transform: uppercase;  
@@ -101,13 +105,13 @@ main a:hover{
 .information li{
   font-family: 'Poppins', sans-serif;
   letter-spacing: 2px;
-  font-size: 18px;
+  font-size: 1rem;
   
 }
 .information p{
   font-family: 'Poppins', sans-serif;
   letter-spacing: 2px;
-  font-size: 18px;
+  font-size: 1rem;
   margin-bottom: 60px;
   margin-left: 30px;
 }
@@ -116,6 +120,22 @@ main a:hover{
 }
 .inlinelink{
   text-decoration: underline;
+}
+@media (max-width:960px){
+  .starting{
+    grid-template-columns: 1fr;
+  }
+  .side-nav .outerlist{
+    margin-left : 30px;
+  }
+  .information{
+    border:none;
+    padding: 0px;
+  }
+  main img{
+    width:90%;
+    
+  }
 }
 
 

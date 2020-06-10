@@ -40,7 +40,9 @@
   max-width:400px;
   max-height: 400px;
   border-radius: 4px;
+  
 }
+
 
 .allpeople{
 	display: grid;
@@ -66,12 +68,18 @@
 	display: flex;
 	flex-direction: row-reverse;
 }
-.allpeople img{
-	
-}
+
 
 @media only screen and (max-width: 916px) {
 	.left,.right{
 		display: block;
 	}
+    
 }
+@media(max-width:570px){
+  .people{
+    max-width:300px;
+    max-height: 300px;
+  }
+}
+
