@@ -137,6 +137,7 @@ video{
   }
   .starting{
     grid-template-columns: 1fr;
+    margin: 100px 20px 50px 20px;
   }
   .information{
     border:none;
@@ -145,11 +146,19 @@ video{
   .information img{
     width:90%;
     height: auto;
+    margin-left: 0;
     
   }
   .information video{
     width: 90%;
     height: auto;
+  }
+  .information p{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .information .aboutme{
+    margin-left: 0px;
   }
 }
 
