@@ -112,10 +112,11 @@ textarea{
       "name name"
       "email email"
       "message message"
-      "message message"'
+      "message message"
       "captcha captcha"
       "submit submit"
     ;
-    
+    width: 80%;
+    margin: auto;
   }
 }
