@@ -104,7 +104,7 @@ textarea{
   justify-self: center;
   align-self: center;
   margin-top: 20px;
-  width: 80%;
+ 
 }
 @media(max-width:994px){
   .contact-form{
