@@ -10,7 +10,7 @@ header{
     left:0;
     padding: 0 80px;
     box-sizing: border-box;
-    z-index: 200;
+    z-index: 50;
     background-color: darkgray;
     height: 65px;
     
