@@ -35,6 +35,9 @@ p{
 	-webkit-transition: 0.5s;
 
 }
+.ios{
+	-webkit-perspective: 600px;
+}
 
 
 .card1, .card2, .card3, .card4, .card5, .card6{
