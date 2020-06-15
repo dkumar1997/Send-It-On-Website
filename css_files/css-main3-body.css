@@ -68,7 +68,10 @@ p{
 	
 	-webkit-transform: rotateX(0deg);
 	transform: rotateX(0deg);
-	-webkit-transition:-webkit-transform rotateX(0deg);
+	-webkit-transition:-webkit-transform 0.9s;
+	-moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
 	
 	-webkit-transition: 0.9s;
 	transition: 0.9s;
@@ -89,7 +92,10 @@ p{
 .card1:hover .front, .card2:hover .front, .card3:hover .front, .card4:hover .front, .card5:hover .front, .card6:hover .front{
 	transform: rotateX(-180deg);
 	-webkit-transform: rotateX(-180deg);
-	-webkit-transition:-webkit-transform rotateX(-180deg);
+	-webkit-transition:-webkit-transform 0.9s;
+	-moz-transform: rotateX(-180deg);
+  -ms-transform: rotateX(-180deg);
+  -o-transform: rotateX(-180deg);
 }
 
 .card1 .back, .card2 .back, .card3 .back, .card4 .back, .card5 .back, .card6 .back{
@@ -109,7 +115,11 @@ p{
 	
 	transform: rotateX(180deg);
 	-webkit-transform: rotateX(180deg);
-	-webkit-transition:-webkit-transform rotateX(180deg);
+	-moz-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
+	
+	-webkit-transition:-webkit-transform 0.9s;
 	transition: 0.9s;
 	-webkit-transition: 0.9s;
 
@@ -117,7 +127,10 @@ p{
 .card1:hover .back, .card2:hover .back, .card3:hover .back, .card4:hover .back, .card5:hover .back, .card6:hover .back{
 	transform: rotateX(0deg);
 	-webkit-transform: rotateX(0deg);
-	-webkit-transition:-webkit-transform rotateX(0deg);
+	-webkit-transition:-webkit-transform 0.9s;
+	-moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
 }
 .card1 .back iframe{
 	text-align: center;
