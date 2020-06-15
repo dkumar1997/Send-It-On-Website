@@ -32,6 +32,7 @@ p{
   margin-right: 20px;
   font-weight: 800;
   transition: 0.5s;
+	-webkit-transition: 0.5s;
 
 }
 
@@ -86,6 +87,7 @@ p{
 
 .card1:hover .front, .card2:hover .front, .card3:hover .front, .card4:hover .front, .card5:hover .front, .card6:hover .front{
 	transform: rotateX(-180deg);
+	-webkit-transform: rotateX(-180deg);
 }
 
 .card1 .back, .card2 .back, .card3 .back, .card4 .back, .card5 .back, .card6 .back{
