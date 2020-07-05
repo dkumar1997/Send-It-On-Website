@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+.allpeople h2{
+  font-family: 'Capriola', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+	margin: 10px 0;
+}
 
 .information h3, .information h4, .information h5{
   
