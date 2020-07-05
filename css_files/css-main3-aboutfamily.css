@@ -8,8 +8,12 @@
   letter-spacing: 2px;
   font-weight: bolder;
   text-transform: uppercase;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 	margin: 10px 0;
+	
+}
+.allpeople .specialheadings{
+	margin-top: 20px;
 }
 
 .information h3, .information h4, .information h5{
