@@ -44,7 +44,7 @@ header nav ul li{
 	
 }
 header nav ul .globalcase, header nav ul .globalcase ul li{
-  width:210px;
+  width:230px;
 }
 header nav ul .joincase, header nav ul .joincase ul li{
   width:210px;
@@ -141,7 +141,7 @@ header nav ul li a:hover{
   background-position: center center;
 }
 
-@media (max-width:1290px){
+@media (max-width:1300px){
   main{
     margin: 0;
     padding: 0;
